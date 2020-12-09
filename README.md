@@ -18,13 +18,13 @@ Sends daily breakdowns of AWS costs to a Slack channel.
 1. Deploy the system into your AWS account, replacing the webhook URL below with the one you generated above.
 
     ```
-    serverless deploy --slack_url="https://hooks.slack.com/services/xxx/yyy/zzzz"
+    serverless deploy --slack_url="https://hooks.slack.com/services/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"
     ```
 
     You can also run it once to verify that it works:
 
     ```
-    serverless invoke --function report_cost --slack_url="https://hooks.slack.com/services/xxx/yyy/zzzz"
+    serverless invoke --function report_cost --slack_url="https://hooks.slack.com/services/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"
     ```
 
 ## Support for AWS Credits

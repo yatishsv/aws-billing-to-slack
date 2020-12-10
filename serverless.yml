@@ -7,7 +7,7 @@ provider:
   name: aws
   # Sane defaults, easy for multi-account/multi-region organizations
   profile: ${opt:aws_profile, env:AWS_PROFILE, 'default'}
-  region: ${opt:aws_region, env:AWS_REGION, env:AWS_DEFAULT_REGION, 'ap-southeast-1'}
+  region: ${opt:aws_region, env:AWS_REGION, env:AWS_DEFAULT_REGION, 'us-east-1'}
   runtime: python3.7
 
   iamRoleStatements:
